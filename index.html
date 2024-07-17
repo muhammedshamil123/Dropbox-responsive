@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/dropbox.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dropbox.com</title>
+    <script>
+        function getStarted() {
+            window.location='https://www.dropbox.com/plans'
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary m-0 p-0 fixed-top ">
+        <div class="container-fluid m-0 navigation " >
+            <a class="navbar-brand" href="#"><img src="images/icon.png" alt="" class="navImage"></a>
+            <div class="end">
+                <a class="nav-link" href="#"><img src="images/languageIcon.jpg" alt="" class="languageIcon"></a>
+                <a class="nav-link" href="#">Sign up</a>
+                <a class="nav-link" href="#">Login</a>
+                <button class="btn btn-outline-success" onclick="getStarted()" type="submit">Get Started</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.dropbox.com/dropbox" >
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.dropbox.com/business/solutions/sales">
+                            Solutions
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="https://www.dropbox.com/enterprise">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.dropbox.com/plans">Pricing</a>
+                    </li>
+                </ul> 
+                <form class="d-flex" role="search">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item lower">
+                            <a class="nav-link" href="#"><img src="images/languageIcon.jpg" alt="" class="languageIcon"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://experience.dropbox.com/contact">Contact Sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.dropbox.com/desktop" >
+                                Get app
+                            </a>
+                        </li>
+                        <li class="nav-item lower">
+                            <a class="nav-link" href="https://www.dropbox.com/register">Sign up</a>
+                        </li>
+                        <li class="nav-item lower">
+                            <a class="nav-link" href="https://www.dropbox.com/login">Login</a>
+                        </li>
+                        <button class="btn btn-outline-success lowerButton" onclick="getStarted()" type="submit">Get Started</button>
+                    </ul> 
+                </form>
+            </div>
+            
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- main head  -->
+         <div class="container">
+            <div class="mainHead text-center d-flex flex-column align-items-center">
+                <h2>Join over 700 million registered users who trust Dropbox</h2>
+                <div class="">Easy to use, reliable, private, and secure. It’s no wonder Dropbox is the choice for storing and sharing your most important files.</div>
+                <a href="https://www.dropbox.com/plans" class="text-decoration-none">
+                    <div class="main-1-button d-flex align-items-start m-3 ps-2 pe-2 pt-1 pb-1">
+                        <p class="p-0 m-0">Find your plan</p>
+                        <p class="p-0 m-0">🡢</p>
+                    </div>
+                </a>
+                <div class="row form">
+                    <input type="email" name="" id="" placeholder="Enter your email address" class="col-md-6">
+                    <button class="col-md-6" onclick="signUp()">Sign up for free</button>
+                </div>
+             </div>
+         </div>
+
+         <!-- main video  -->
+         <div class="container-fluid">
+             <video id="myVideo" autoplay loop muted>
+                 <source src="images/vid.mp4" type="video/mp4" loading="lazy">
+             </video>
+         </div>
+
+         <!-- sub heading  -->
+         <div class="container text-center subHead">
+            <h2>What can you do with Dropbox?</h2>
+        </div>
+
+        <!-- cards  -->
+        <div class="container-fluid p-0">
+            <div class="cards row">
+            <div class="col-6 col-lg-3">
+                <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/ProtectFilesDark.svg?id=522e2ebf-a0ca-4b4b-9c0b-e399442719de" alt="">
+                <h3>Store and protect your files</h3><br>
+                <p>Get the storage you and your teams need with security features like file recovery, password protection, watermarking, and viewer history.</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/SharedContentDark.svg?id=f718921a-2979-4312-b5ad-e40509c5efc2" alt="">
+                <h3>Stay in control of shared content</h3><br>
+                <p>Trackable links show when someone has opened a shared file and how long they’ve engaged with it. Plus, you can turn off access for any individual at any time without affecting others’ permissions.</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/CollaborateDark.svg?id=d6f1841b-b694-417d-9d20-877aad41b4d9" alt="">
+                <h3>Collaborate on your work</h3><br>
+                <p>Directly edit PDFs and use video tools to streamline feedback and approval processes.</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/icons/ManageBusinessDark.svg?id=2008b1f6-a8b4-4303-aeb9-4c2c4bf78484" alt="">
+                <h3>Manage your business</h3><br>
+                <p>Automate manual processes with tools like eSignature templates, which let you reuse documents in seconds.</p>
+            </div>
+            </div>
+        </div>
+
+        <!-- new beta image  -->
+        <div class="main-5-1 d-flex justify-content-center">
+            <img src="images/Newbetachip.svg" alt="" loading="lazy">
+        </div>
+
+        <!-- beta heading  -->
+        <div class="container">
+            <div class="betaHead text-center d-flex flex-column align-items-center">
+                <h2>Shortcut your workday with Dropbox Dash</h2><br>
+                <div class="">Quickly find, organize, and share important content all in one place with the AI universal search tool built to save you time, so you can focus on the work that matters most.</div>
+                <a href="https://www.dropbox.com/login?branded=1&cont=%2Fdash%2Fget-started&register_cont=%2Fdash%2Fget-started" class="text-decoration-none">
+                    <div class="main-1-button d-flex align-items-start m-3 ps-2 pe-2 pt-1 pb-1">
+                        <p class="p-0 m-0">Get Dash beta free</p>
+                        <p class="p-0 m-0">🡢</p>
+                    </div>
+                </a>
+             </div>
+         </div>
+
+         <!-- dash image  -->
+        <div class="dashImage">
+            <img src="images/dash.webp" alt="">
+        </div>
+
+        
+         <!-- sub heading  -->
+         <div class="container text-center subHead">
+            <h2>How will you use Dropbox?</h2>
+        </div>
+        
+        <!-- cards  -->
+         <div class="container p-5">
+            <div class="main-8">
+                <div class="main-8-1">
+                    <div class="main-8-1-content">
+                        <div><img src="images/card1.webp" alt="" loading="lazy"></div>
+                        <div class="content1">
+                            <h2>For work</h2>
+                            <p>Work efficiently with teammates and clients, stay in sync on projects, and keep company data safe—all in one place.</p>
+                            <a href="https://www.dropbox.com/overview?frompath=dropbox" class="text-decoration-none">
+                                <div class="main-1-button d-flex align-items-start ps-2 pe-2 pt-1 pb-1">
+                                    <p class="p-0 m-0">Get Dropbox for work</p>
+                                    <p class="p-0 m-0">🡢</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-8-2 ">
+                    <div class="main-8-2-content">
+                        <div><img src="images/card2.webp" alt="" loading="lazy"></div>
+                        <div class="content1">
+                            <h2>For personal use</h2>
+                            <p>Keep everything that’s important to you and your family shareable and safe in one place. Back up files in the cloud, share photos and videos, and more.</p>
+                            <a href="https://www.dropbox.com/plans" class="text-decoration-none">
+                                <div class="main-1-button d-flex align-items-start ps-2 pe-2 pt-1 pb-1">
+                                    <p class="p-0 m-0">Get Dropbox for personal use</p>
+                                    <p class="p-0 m-0">🡢</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+         </div>
+
+         
+         <!-- sub heading  -->
+         <div class="container text-center subHead">
+            <h2>Cloud storage you can count on</h2>
+        </div>
+        
+        <!-- cloud storage  -->
+        <div class="main-10">
+            <div class="main-10-1">
+                <h2>1B+</h2>
+                <h3>mobile app downloads</h3>
+                <p>with Editors’ Choice Awards from the Google Play and Apple App Store.</p>
+            </div>
+            <div class="main-10-2">
+                <h2>575k+</h2>
+                <h3>teams globally</h3>
+                <p>use Dropbox to share work, safeguard content, and grow their business.</p>
+            </div>
+            <div class="main-10-3">
+                <h2>4.5B</h2>
+                <h3>connections and counting</h3>
+                <p>created through Dropbox file sharing.</p> 
+            </div>
+        </div>
+
+        <!-- carousel  -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner cc">
+                <div class="carousel-item active">
+                    <div class="itemContainer">
+                        <div class="main-11-image">
+                            <img src="images/gallary1.png" alt="" loading="lazy">
+                        </div>
+                        <div class="main-11-explanation">
+                            <p>“Dropbox increased our team’s collaboration while working from home, which has increased our flexibility and could revolutionize our office culture.”</p>
+                            <a href="https://experience.dropbox.com/resources/bound-for-nowhere-customer-story"><p class="read">Read the full story <i class="fa-solid fa-arrow-right"></i></p></a>
+                            <span class="Zak">Adam Montgomery</span><br>
+                            <span class="CEO">Senior Manager of Programming, Sundance Film Festival</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="itemContainer">
+                        <div class="main-11-image">
+                            <img src="images/gallary1.png" alt="" loading="lazy">
+                        </div>
+                        <div class="main-11-explanation">
+                            <p>“Dropbox has been tremendously helpful for social media. I can hop on anytime and pull whatever photo is inspiring me to post.”</p>
+                            <a href="https://experience.dropbox.com/resources/sundance-success-story"><p class="read">Read the full story  <i class="fa-solid fa-arrow-right"></i></p></a>
+                            <span class="Zak">Mary Ashley Krogh (MAK)</span><br>
+                            <span class="CEO">Illustrator and Graphic Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="itemContainer">
+                        <div class="main-11-image">
+                            <img src="images/gallary1.png" alt="" loading="lazy">
+                        </div>
+                        <div class="main-11-explanation">
+                        <p>“It‘s great to have Dropbox on board, helping our high performing team work efficiently and <br>seamlessly.”</p>
+                        <a href="https://experience.dropbox.com/resources/creativity-explored-customer-story"><p class="read">Read the full story<i class="fa-solid fa-arrow-right"></i></p></a>
+                        <span class="Zak">Zak Brown</span><br>
+                        <span class="CEO">CEO of McLaren Racing</span>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+          </div>
+
+          <!-- last heading  -->
+          <div class="main-12">
+            <div class="main-12-content">
+                <h2>Get started with Dropbox</h2>
+            </div>
+            <a href="https://www.dropbox.com/login?branded=1&cont=%2Fdash%2Fget-started&register_cont=%2Fdash%2Fget-started" class="text-decoration-none">
+                <div class="main-1-button d-flex align-items-start m-3 ps-2 pe-2 pt-1 pb-1">
+                    <p class="p-0 m-0">Get Dash beta free</p>
+                    <p class="p-0 m-0">🡢</p>
+                </div>
+            </a>
+        </div>
+          
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Dropbox</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/desktop">Desktop app</a></li>
+                        <li><a href="https://www.dropbox.com/mobile?trigger=on">Mobile app</a></li>
+                        <li><a href="https://www.dropbox.com/app-integrations">Integrations</a></li>
+                        <li><a href="https://www.dropbox.com/features">Features</a></li>
+                        <li><a href="https://www.dropbox.com/business/solutions">Solutions</a></li>
+                        <li><a href="https://www.dropbox.com/features/security">Security</a></li>
+                        <li><a href="https://www.dropbox.com/early-access">Early access</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Templates</a></li>    
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Products</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/plus">Plus</a></li>
+                        <li><a href="https://www.dropbox.com/overview/professionals">Professional</a></li>
+                        <li><a href="https://www.dropbox.com/business">Business</a></li>
+                        <li><a href="https://www.dropbox.com/enterprise">Enterprise</a></li>
+                        <li><a href="https://dash.dropbox.com/">Dash (beta)</a></li>
+                        <li><a href="https://www.dropbox.com/desktop">Dropbox SignDropbox Sign</a></li>
+                        <li><a href="https://www.dropbox.com/mobile?trigger=on">DocSend</a></li>
+                        <li><a href="https://www.dropbox.com/features">Plans</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Product updates</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Features</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/templates">Send large files</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Send long videos</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Cloud photo storage</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Secure file transfer</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Password manager</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Cloud backup</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Edit PDFs</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Electronic signatures</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Screen recorder</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Convert to PDF</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Support</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/templates">Help center</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Contact us</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Privacy & terms</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Cookie policy</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Cookies & CCPA preferences</a></li>
+                        <li><a href="https://www.dropbox.com/templates">AI principles</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Sitemap</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Learning resources</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Resources</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/templates">Blog</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Customer stories</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Resources library</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Developers</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Community forums</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Referrals</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Reseller partners</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Integration partners</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Find a partner</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <p>Company</p>
+                    <ul>
+                        <li><a href="https://www.dropbox.com/templates">About us</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Jobs</a></li>
+                        <li><a href="https://www.dropbox.com/templates">Investor relations</a></li>
+                        <li><a href="https://www.dropbox.com/templates">ESG</a></li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="col-12">
+                    <div class="seperator"></div>
+                </div>
+                <div class="col-12">
+                    <i class="fa-solid fa-globe"></i> English (United States)<i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function getStarted() {
+            window.location.href = "https://www.dropbox.com/plans";
+            window.alert("Getting started");
+        }
+        function signUp() {
+            window.location.href="https://www.dropbox.com/register";
+            window.alert("Signing Up");
+        }
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</html>
+
